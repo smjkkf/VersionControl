@@ -20,6 +20,7 @@ namespace UserMaintenance
             label1.Text = Resource1.LastName;
             label2.Text = Resource1.FirstName;
             button1.Text = Resource1.Add;
+            button2.Text = Resource1.File;
             listUsers.DataSource = users;
             listUsers.ValueMember = "ID";
             listUsers.DisplayMember = "FullName";
